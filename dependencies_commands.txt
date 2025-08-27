@@ -1,0 +1,7 @@
+
+pip download tensorflow jupyter notebook ipykernel numpy pandas scikit-learn matplotlib --platform win_amd64 --python-version 310 --only-binary=:all:
+pip download protobuf google-pasta grpcio absl-py gast astunparse termcolor wrapt opt-einsum --platform win_amd64 --python-version 310 --only-binary=:all:
+pip download exceptiongroup --platform win_amd64 --python-version 310 --only-binary=:all:
+pip download setuptools wheel backcall pexpect pickleshare wurlitzer --platform win_amd64 --python-version 310 --only-binary=:all:
+pip download tomli --platform win_amd64 --python-version 310 --only-binary=:all:
+
