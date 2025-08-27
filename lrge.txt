@@ -1,1 +1,26 @@
 https://we.tl/t-8kD9hIBB3M
+
+
+
+# Install essential dependencies first
+pip install numpy --no-index
+pip install pandas -f ./ --no-index
+pip install matplotlib -f ./ --no-index
+pip install scikit_learn -f ./ --no-index
+
+# Install Google/TensorFlow dependencies
+pip install protobuf -f ./ --no-index
+pip install google_pasta -f ./ --no-index
+pip install grpcio -f ./ --no-index
+pip install absl_py -f ./ --no-index
+
+# Install TensorFlow
+pip install tensorflow -f ./ --no-index
+
+# Install Jupyter components
+pip install ipykernel -f ./ --no-index
+pip install notebook -f ./ --no-index
+pip install jupyter -f ./ --no-index
+
+
+python -m ipykernel install --user --name=test_env --display-name="Tf Python"
